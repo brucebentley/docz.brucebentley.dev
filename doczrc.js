@@ -1,4 +1,4 @@
 export default {
-  dest: '/public',
-  public: '/pub'
+  title: 'Personal Docz Project',
+  menu: ['Getting Started', 'Components']
 };

@@ -1,12 +1,31 @@
 {
-  "name": "my-docz-project",
+  "private": true,
+  "name": "personal-docz-project",
   "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "src/",
+    "doczrc.js",
+    "package.json"
+  ],
   "scripts": {
-    "dev": "docz dev --port=$PORT",
-    "build": "docz build"
+    "dev": "docz dev",
+    "//": "temporary hack below fixed with next docz version. Used for running docz on CI",
+    "dev:once": "npx kill-port 3000 && (yarn dev &) && npx wait-on http-get://localhost:3000 && npx kill-port 3000",
+    "build": "yarn dev:once && docz build",
+    "deploy": "yarn build && npx now --prod"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
+    "docz": "next",
+    "docz-theme-default": "1.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "scheduler": "^0.16.1"
   },
   "devDependencies": {
-    "docz": "1.2.0",
-    "docz-theme-default": "1.2.0"
+    "now": "^16.3.0"
   }
 }
