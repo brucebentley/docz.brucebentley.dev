@@ -21,7 +21,7 @@ const config = {
         themeConfig: { codemirrorTheme: 'material-palenight' },
         themesDir: 'src',
         docgenConfig: {},
-        menu: ['Getting Started', 'Components'],
+        menu: ['Getting Started', 'Assets', 'Styleguide', 'Components'],
         mdPlugins: [],
         hastPlugins: [],
         ignore: [],

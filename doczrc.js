@@ -59,7 +59,7 @@ export default {
       scripts: []
     }
   },
-  menu: ['Getting Started', 'Components'],
+  menu: ['Getting Started', 'Assets', 'Styleguide', 'Components'],
   themeConfig: {
     codemirrorTheme: 'material-palenight'
     // mode: 'dark'
