@@ -158,12 +158,64 @@ function MDXContent(_ref) {
     components: components,
     mdxType: "MDXLayout"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h1", {
+<<<<<<< HEAD
     "id": "bruces-personal-docz"
   }, `Bruce's Personal Docz`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", _extends({
     parentName: "p"
   }, {
     "href": "https://docz.brucebentley.dev/"
   }), `Live Example`)));
+=======
+    "id": "docz-example"
+  }, `Docz Example`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `This directory is a brief example of a `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", _extends({
+    parentName: "p"
+  }, {
+    "href": "https://www.docz.site/"
+  }), `Docz`), ` site that can be deployed with ZEIT Now and zero configuration.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "deploy-your-own"
+  }, `Deploy Your Own`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Deploy your own Docz project with ZEIT Now.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", _extends({
+    parentName: "p"
+  }, {
+    "href": "https://zeit.co/new/project?template=https://github.com/zeit/now-examples/tree/master/docz"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("img", {
+    alt: "Deploy with ZEIT Now",
+    src: "https://zeit.co/button"
+  }))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", {
+    parentName: "p"
+  }, `Live Example: `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", _extends({
+    parentName: "em"
+  }, {
+    "href": "https://docz.now-examples.now.sh"
+  }), `https://docz.now-examples.now.sh`))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h3", {
+    "id": "how-we-created-this-example"
+  }, `How We Created This Example`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `To get started with Docz for deployment with ZEIT Now, you can use the `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", _extends({
+    parentName: "p"
+  }, {
+    "href": "https://zeit.co/download"
+  }), `Now CLI`), ` to initialize the project:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {
+    "className": "language-shell"
+  }), `$ now init docz
+`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("blockquote", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", {
+    parentName: "blockquote"
+  }, `The only change made is to add `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("inlineCode", {
+    parentName: "p"
+  }, `dest: '/public'`), ` to the `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("inlineCode", {
+    parentName: "p"
+  }, `doczrc.js`), ` file.`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h3", {
+    "id": "deploying-from-your-terminal"
+  }, `Deploying From Your Terminal`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `You can deploy your new Docz project with a single command from your terminal using `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("a", _extends({
+    parentName: "p"
+  }, {
+    "href": "/download"
+  }), `Now CLI`), `:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("pre", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("code", _extends({
+    parentName: "pre"
+  }, {
+    "className": "language-shell"
+  }), `$ now
+`)));
+>>>>>>> master
 }
 
 if (typeof MDXContent !== 'undefined' && MDXContent && MDXContent === Object(MDXContent) && Object.isExtensible(MDXContent)) {
@@ -76383,15 +76435,24 @@ module.exports = function(module) {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../src/assets/Personal.jsx":
 /*!**********************************!*\
   !*** ../src/assets/Personal.jsx ***!
   \**********************************/
 /*! exports provided: Personal */
+=======
+/***/ "../src/components/Alert.jsx":
+/*!***********************************!*\
+  !*** ../src/components/Alert.jsx ***!
+  \***********************************/
+/*! exports provided: Alert */
+>>>>>>> master
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Personal", function() { return Personal; });
 /* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/core */ "../node_modules/@emotion/core/dist/core.esm.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
@@ -76406,6 +76467,23 @@ function _extends(){_extends=Object.assign||function(target){for(var i=1;i<argum
 /*!**********************************!*\
   !*** ../src/assets/Personal.mdx ***!
   \**********************************/
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Alert", function() { return Alert; });
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "../node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/core */ "../node_modules/@emotion/core/dist/core.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+const kinds={info:'#5352ED',positive:'#2ED573',negative:'#FF4757',warning:'#FFA502'};const AlertStyled=/*#__PURE__*/Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])('div',{target:"e17fig130"})("padding:15px 20px;background:white;border-radius:3px;color:white;background:",kind=>kinds['info'],";");const Alert=props=>Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(AlertStyled,props);if(typeof Alert!=='undefined'&&Alert&&Alert===Object(Alert)&&Object.isExtensible(Alert)){Object.defineProperty(Alert,'__filemeta',{configurable:true,value:{name:"Alert",filename:"src/components/Alert.jsx"}});}Alert.propTypes={kind:prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['info','positive','negative','warning'])};Alert.defaultProps={kind:'info'};
+
+/***/ }),
+
+/***/ "../src/components/Alert.mdx":
+/*!***********************************!*\
+  !*** ../src/components/Alert.mdx ***!
+  \***********************************/
+>>>>>>> master
 /*! exports provided: _frontmatter, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76419,7 +76497,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mdx-js/react */ "../node_modules/@mdx-js/react/dist/index.es.js");
 /* harmony import */ var _Users_bruce_bentley_Projects_Personal_docz_brucebentley_dev_node_modules_gatsby_theme_docz_src_base_Layout_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/gatsby-theme-docz/src/base/Layout.js */ "../node_modules/gatsby-theme-docz/src/base/Layout.js");
 /* harmony import */ var docz__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! docz */ "../node_modules/docz/dist/index.esm.js");
+<<<<<<< HEAD
 /* harmony import */ var _Personal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Personal */ "../src/assets/Personal.jsx");
+=======
+/* harmony import */ var _Alert__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Alert */ "../src/components/Alert.jsx");
+>>>>>>> master
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -76444,7 +76526,11 @@ if (typeof _frontmatter !== 'undefined' && _frontmatter && _frontmatter === Obje
     configurable: true,
     value: {
       name: "_frontmatter",
+<<<<<<< HEAD
       filename: "src/assets/Personal.mdx"
+=======
+      filename: "src/components/Alert.mdx"
+>>>>>>> master
     }
   });
 }
@@ -76468,6 +76554,7 @@ function MDXContent(_ref) {
     components: components,
     mdxType: "MDXLayout"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h1", {
+<<<<<<< HEAD
     "id": "personal"
   }, `Personal`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", {
     parentName: "p"
@@ -76485,11 +76572,25 @@ function MDXContent(_ref) {
   }, `Basic Usage`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(docz__WEBPACK_IMPORTED_MODULE_4__["Playground"], {
     __position: 1,
     __code: '<Personal></Personal>',
+=======
+    "id": "alert"
+  }, `Alert`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "properties"
+  }, `Properties`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(docz__WEBPACK_IMPORTED_MODULE_4__["Props"], {
+    of: _Alert__WEBPACK_IMPORTED_MODULE_5__["Alert"],
+    mdxType: "Props"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "basic-usage"
+  }, `Basic usage`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(docz__WEBPACK_IMPORTED_MODULE_4__["Playground"], {
+    __position: 1,
+    __code: '<Alert>Some message</Alert>',
+>>>>>>> master
     __scope: {
       props,
       DefaultLayout: _Users_bruce_bentley_Projects_Personal_docz_brucebentley_dev_node_modules_gatsby_theme_docz_src_base_Layout_js__WEBPACK_IMPORTED_MODULE_3__["default"],
       Playground: docz__WEBPACK_IMPORTED_MODULE_4__["Playground"],
       Props: docz__WEBPACK_IMPORTED_MODULE_4__["Props"],
+<<<<<<< HEAD
       Personal: _Personal__WEBPACK_IMPORTED_MODULE_5__["Personal"]
     },
     mdxType: "Playground"
@@ -76615,17 +76716,48 @@ function MDXContent(_ref) {
   }, `Basic Usage`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(docz__WEBPACK_IMPORTED_MODULE_4__["Playground"], {
     __position: 1,
     __code: '<Professional></Professional>',
+=======
+      Alert: _Alert__WEBPACK_IMPORTED_MODULE_5__["Alert"]
+    },
+    mdxType: "Playground"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(_Alert__WEBPACK_IMPORTED_MODULE_5__["Alert"], {
+    mdxType: "Alert"
+  }, "Some message")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h2", {
+    "id": "using-different-kinds"
+  }, `Using different kinds`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(docz__WEBPACK_IMPORTED_MODULE_4__["Playground"], {
+    __position: 2,
+    __code: '<Alert kind=\"info\">Some message</Alert>\n<Alert kind=\"positive\">Some message</Alert>\n<Alert kind=\"negative\">Some message</Alert>\n<Alert kind=\"warning\">Some message</Alert>',
+>>>>>>> master
     __scope: {
       props,
       DefaultLayout: _Users_bruce_bentley_Projects_Personal_docz_brucebentley_dev_node_modules_gatsby_theme_docz_src_base_Layout_js__WEBPACK_IMPORTED_MODULE_3__["default"],
       Playground: docz__WEBPACK_IMPORTED_MODULE_4__["Playground"],
       Props: docz__WEBPACK_IMPORTED_MODULE_4__["Props"],
+<<<<<<< HEAD
       Professional: _Professional__WEBPACK_IMPORTED_MODULE_5__["Professional"]
     },
     mdxType: "Playground"
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(_Professional__WEBPACK_IMPORTED_MODULE_5__["Professional"], {
     mdxType: "Professional"
   })));
+=======
+      Alert: _Alert__WEBPACK_IMPORTED_MODULE_5__["Alert"]
+    },
+    mdxType: "Playground"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(_Alert__WEBPACK_IMPORTED_MODULE_5__["Alert"], {
+    kind: "info",
+    mdxType: "Alert"
+  }, "Some message"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(_Alert__WEBPACK_IMPORTED_MODULE_5__["Alert"], {
+    kind: "positive",
+    mdxType: "Alert"
+  }, "Some message"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(_Alert__WEBPACK_IMPORTED_MODULE_5__["Alert"], {
+    kind: "negative",
+    mdxType: "Alert"
+  }, "Some message"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])(_Alert__WEBPACK_IMPORTED_MODULE_5__["Alert"], {
+    kind: "warning",
+    mdxType: "Alert"
+  }, "Some message")));
+>>>>>>> master
 }
 
 if (typeof MDXContent !== 'undefined' && MDXContent && MDXContent === Object(MDXContent) && Object.isExtensible(MDXContent)) {
@@ -76633,7 +76765,11 @@ if (typeof MDXContent !== 'undefined' && MDXContent && MDXContent === Object(MDX
     configurable: true,
     value: {
       name: "MDXContent",
+<<<<<<< HEAD
       filename: "src/assets/Professional.mdx"
+=======
+      filename: "src/components/Alert.mdx"
+>>>>>>> master
     }
   });
 }
@@ -76643,6 +76779,7 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../src/assets/SocialMedia.jsx":
 /*!*************************************!*\
   !*** ../src/assets/SocialMedia.jsx ***!
@@ -76667,10 +76804,18 @@ function _extends(){_extends=Object.assign||function(target){for(var i=1;i<argum
   !*** ../src/assets/SocialMedia.mdx ***!
   \*************************************/
 /*! exports provided: _frontmatter, default */
+=======
+/***/ "../src/components/Button.jsx":
+/*!************************************!*\
+  !*** ../src/components/Button.jsx ***!
+  \************************************/
+/*! exports provided: Button */
+>>>>>>> master
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_frontmatter", function() { return _frontmatter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/core */ "../node_modules/@emotion/core/dist/core.esm.js");
@@ -76796,6 +76941,47 @@ function _extends(){_extends=Object.assign||function(target){for(var i=1;i<argum
 /*!***********************************!*\
   !*** ../src/components/Alert.mdx ***!
   \***********************************/
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return Button; });
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "../node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/core */ "../node_modules/@emotion/core/dist/core.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+function _objectWithoutProperties(source,excluded){if(source==null)return{};var target=_objectWithoutPropertiesLoose(source,excluded);var key,i;if(Object.getOwnPropertySymbols){var sourceSymbolKeys=Object.getOwnPropertySymbols(source);for(i=0;i<sourceSymbolKeys.length;i++){key=sourceSymbolKeys[i];if(excluded.indexOf(key)>=0)continue;if(!Object.prototype.propertyIsEnumerable.call(source,key))continue;target[key]=source[key];}}return target;}function _objectWithoutPropertiesLoose(source,excluded){if(source==null)return{};var target={};var sourceKeys=Object.keys(source);var key,i;for(i=0;i<sourceKeys.length;i++){key=sourceKeys[i];if(excluded.indexOf(key)>=0)continue;target[key]=source[key];}return target;}const scales={small:`
+    padding: 5px 10px;
+    font-size: 14px;
+  `,normal:`
+    padding: 10px 20px;
+    font-size: 16px;
+  `,big:`
+    padding: 20px 30px;
+    font-size: 18px;
+  `};const kind=outline=>(bg,color)=>{const boxShadowColor=outline?bg:'transparent';const backgroundColor=outline?'transparent':bg;return`
+    background: ${backgroundColor};
+    box-shadow: inset 0 0 0 1px ${boxShadowColor};
+    color: ${outline?bg:color};
+    transition: all .3s;
+
+    &:hover {
+      box-shadow: inset 0 0 0 1000px ${boxShadowColor};
+      color: ${color};
+    }
+  `;};const kinds=outline=>{const get=kind(outline);return{primary:get('#1FB6FF','white'),secondary:get('#5352ED','white'),cancel:get('#FF4949','white'),dark:get('#273444','white'),gray:get('#8492A6','white')};};const getScale=({scale='normal'})=>scales[scale];const getKind=({kind='primary',outline=false})=>kinds(outline)[kind];const ButtonStyled=/*#__PURE__*/Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])('button',{target:"e57fgrn0"})(getKind,";",getScale,";cursor:pointer;margin:3px 5px;border:none;border-radius:3px;");const Button=(_ref)=>{let{children}=_ref,props=_objectWithoutProperties(_ref,["children"]);return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(ButtonStyled,props,children);};if(typeof Button!=='undefined'&&Button&&Button===Object(Button)&&Object.isExtensible(Button)){Object.defineProperty(Button,'__filemeta',{configurable:true,value:{name:"Button",filename:"src/components/Button.jsx"}});}Button.propTypes={/**
+   * This is a pretty good description for this prop
+   * Button type. Learn more about `type` attribute [at MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-type)
+   */type:prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['button','submit','reset']),/**
+   * This is a __pretty good__ description for this prop
+   */scales:prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['small','normal','big']),kind:prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['primary','secondary','cancel','dark','gray']),outline:prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool.isRequired};Button.defaultProps={scales:'normal',kind:'primary',outline:false};
+
+/***/ }),
+
+/***/ "../src/components/Button.mdx":
+/*!************************************!*\
+  !*** ../src/components/Button.mdx ***!
+  \************************************/
+>>>>>>> master
 /*! exports provided: _frontmatter, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76809,6 +76995,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mdx-js/react */ "../node_modules/@mdx-js/react/dist/index.es.js");
 /* harmony import */ var _Users_bruce_bentley_Projects_Personal_docz_brucebentley_dev_node_modules_gatsby_theme_docz_src_base_Layout_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/gatsby-theme-docz/src/base/Layout.js */ "../node_modules/gatsby-theme-docz/src/base/Layout.js");
 /* harmony import */ var docz__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! docz */ "../node_modules/docz/dist/index.esm.js");
+<<<<<<< HEAD
 /* harmony import */ var _Alert__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Alert */ "../src/components/Alert.jsx");
 
 
@@ -77217,6 +77404,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Users_bruce_bentley_Projects_Personal_docz_brucebentley_dev_node_modules_gatsby_theme_docz_src_base_Layout_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/gatsby-theme-docz/src/base/Layout.js */ "../node_modules/gatsby-theme-docz/src/base/Layout.js");
 /* harmony import */ var docz__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! docz */ "../node_modules/docz/dist/index.esm.js");
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Button */ "../src/components/Button.jsx");
+=======
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Button */ "../src/components/Button.jsx");
+>>>>>>> master
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -77266,7 +77456,11 @@ function MDXContent(_ref) {
     mdxType: "MDXLayout"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h1", {
     "id": "button"
+<<<<<<< HEAD
   }, `Button`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Button make common actions more obvious and help users more easily perform them. Buttons use labels and sometimes icons to communicate the action that will occur when the user touches them.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h3", {
+=======
+  }, `Button`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Buttons make common actions more obvious and help users more easily perform them. Buttons use labels and sometimes icons to communicate the action that will occur when the user touches them.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h3", {
+>>>>>>> master
     "id": "best-practices"
   }, `Best practices`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("ul", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("li", {
     parentName: "ul"
@@ -77397,6 +77591,7 @@ MDXContent.isMDXComponent = true;
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../src/components/ButtonDropdown.jsx":
 /*!********************************************!*\
   !*** ../src/components/ButtonDropdown.jsx ***!
@@ -77420,6 +77615,12 @@ function _extends(){_extends=Object.assign||function(target){for(var i=1;i<argum
 /*!********************************************!*\
   !*** ../src/components/ButtonDropdown.mdx ***!
   \********************************************/
+=======
+/***/ "../src/index.mdx":
+/*!************************!*\
+  !*** ../src/index.mdx ***!
+  \************************/
+>>>>>>> master
 /*! exports provided: _frontmatter, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77432,8 +77633,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mdx-js/react */ "../node_modules/@mdx-js/react/dist/index.es.js");
 /* harmony import */ var _Users_bruce_bentley_Projects_Personal_docz_brucebentley_dev_node_modules_gatsby_theme_docz_src_base_Layout_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../node_modules/gatsby-theme-docz/src/base/Layout.js */ "../node_modules/gatsby-theme-docz/src/base/Layout.js");
+<<<<<<< HEAD
 /* harmony import */ var docz__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! docz */ "../node_modules/docz/dist/index.esm.js");
 /* harmony import */ var _ButtonDropdown__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ButtonDropdown */ "../src/components/ButtonDropdown.jsx");
+=======
+>>>>>>> master
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -77449,8 +77653,11 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /* @jsx mdx */
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> master
 const _frontmatter = {};
 
 if (typeof _frontmatter !== 'undefined' && _frontmatter && _frontmatter === Object(_frontmatter) && Object.isExtensible(_frontmatter)) {
@@ -77458,7 +77665,11 @@ if (typeof _frontmatter !== 'undefined' && _frontmatter && _frontmatter === Obje
     configurable: true,
     value: {
       name: "_frontmatter",
+<<<<<<< HEAD
       filename: "src/components/ButtonDropdown.mdx"
+=======
+      filename: "src/index.mdx"
+>>>>>>> master
     }
   });
 }
@@ -77482,6 +77693,7 @@ function MDXContent(_ref) {
     components: components,
     mdxType: "MDXLayout"
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("h1", {
+<<<<<<< HEAD
     "id": "button-dropdown"
   }, `Button Dropdown`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("em", {
     parentName: "p"
@@ -81755,6 +81967,14 @@ function MDXContent(_ref) {
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("strong", {
     parentName: "li"
   }, `It’s consistent`), `. The way components are built and managed follows a predictable pattern.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("li", {
+=======
+    "id": "getting-started"
+  }, `Getting Started`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Design systems enable teams to build better products faster by making design reusable—reusability makes scale possible. This is the heart and primary value of design systems. A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("p", null, `Regardless of the technologies and tools behind them, a successful design system follows these guiding principles:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("ul", null, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("li", {
+    parentName: "ul"
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("strong", {
+    parentName: "li"
+  }, `It’s consistent`), `. The way components are built and managed follows a predictable pattern.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("li", {
+>>>>>>> master
     parentName: "ul"
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["mdx"])("strong", {
     parentName: "li"
@@ -81780,6 +82000,7 @@ if (typeof MDXContent !== 'undefined' && MDXContent && MDXContent === Object(MDX
     configurable: true,
     value: {
       name: "MDXContent",
+<<<<<<< HEAD
       filename: "src/pages/index.mdx"
     }
   });
@@ -82301,6 +82522,9 @@ if (typeof MDXContent !== 'undefined' && MDXContent && MDXContent === Object(MDX
     value: {
       name: "MDXContent",
       filename: "src/styleguide/Images.mdx"
+=======
+      filename: "src/index.mdx"
+>>>>>>> master
     }
   });
 }
@@ -82833,7 +83057,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 const{hot}=__webpack_require__(/*! react-hot-loader/root */ "../node_modules/react-hot-loader/root.js");// prefer default export if available
+<<<<<<< HEAD
 const preferDefault=m=>m&&m.default||m;exports.components={"component---readme-md":hot(preferDefault(__webpack_require__(/*! ../README.md */ "../README.md"))),"component---src-assets-personal-mdx":hot(preferDefault(__webpack_require__(/*! ../src/assets/Personal.mdx */ "../src/assets/Personal.mdx"))),"component---src-assets-professional-mdx":hot(preferDefault(__webpack_require__(/*! ../src/assets/Professional.mdx */ "../src/assets/Professional.mdx"))),"component---src-pages-index-mdx":hot(preferDefault(__webpack_require__(/*! ../src/pages/index.mdx */ "../src/pages/index.mdx"))),"component---src-assets-social-media-mdx":hot(preferDefault(__webpack_require__(/*! ../src/assets/SocialMedia.mdx */ "../src/assets/SocialMedia.mdx"))),"component---src-styleguide-color-mdx":hot(preferDefault(__webpack_require__(/*! ../src/styleguide/Color.mdx */ "../src/styleguide/Color.mdx"))),"component---src-styleguide-grid-mdx":hot(preferDefault(__webpack_require__(/*! ../src/styleguide/Grid.mdx */ "../src/styleguide/Grid.mdx"))),"component---src-styleguide-icons-mdx":hot(preferDefault(__webpack_require__(/*! ../src/styleguide/Icons.mdx */ "../src/styleguide/Icons.mdx"))),"component---src-styleguide-images-mdx":hot(preferDefault(__webpack_require__(/*! ../src/styleguide/Images.mdx */ "../src/styleguide/Images.mdx"))),"component---src-components-alert-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Alert.mdx */ "../src/components/Alert.mdx"))),"component---src-components-avatar-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Avatar.mdx */ "../src/components/Avatar.mdx"))),"component---src-components-badge-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Badge.mdx */ "../src/components/Badge.mdx"))),"component---src-components-checkbox-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Checkbox.mdx */ "../src/components/Checkbox.mdx"))),"component---src-components-button-dropdown-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/ButtonDropdown.mdx */ "../src/components/ButtonDropdown.mdx"))),"component---src-components-button-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Button.mdx */ "../src/components/Button.mdx"))),"component---src-components-collapse-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Collapse.mdx */ "../src/components/Collapse.mdx"))),"component---src-components-description-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Description.mdx */ "../src/components/Description.mdx"))),"component---src-components-fieldset-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Fieldset.mdx */ "../src/components/Fieldset.mdx"))),"component---src-components-file-tree-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/FileTree.mdx */ "../src/components/FileTree.mdx"))),"component---src-components-icon-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Icon.mdx */ "../src/components/Icon.mdx"))),"component---src-components-image-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Image.mdx */ "../src/components/Image.mdx"))),"component---src-components-input-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Input.mdx */ "../src/components/Input.mdx"))),"component---src-components-link-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Link.mdx */ "../src/components/Link.mdx"))),"component---src-components-loading-dots-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/LoadingDots.mdx */ "../src/components/LoadingDots.mdx"))),"component---src-components-popover-menu-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/PopoverMenu.mdx */ "../src/components/PopoverMenu.mdx"))),"component---src-components-scroller-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Scroller.mdx */ "../src/components/Scroller.mdx"))),"component---src-components-note-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Note.mdx */ "../src/components/Note.mdx"))),"component---src-components-select-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Select.mdx */ "../src/components/Select.mdx"))),"component---src-components-show-more-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/ShowMore.mdx */ "../src/components/ShowMore.mdx"))),"component---src-components-radio-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Radio.mdx */ "../src/components/Radio.mdx"))),"component---src-components-skeleton-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Skeleton.mdx */ "../src/components/Skeleton.mdx"))),"component---src-components-slider-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Slider.mdx */ "../src/components/Slider.mdx"))),"component---src-components-snippet-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Snippet.mdx */ "../src/components/Snippet.mdx"))),"component---src-components-spacer-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Spacer.mdx */ "../src/components/Spacer.mdx"))),"component---src-components-spinner-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Spinner.mdx */ "../src/components/Spinner.mdx"))),"component---src-components-status-dot-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/StatusDot.mdx */ "../src/components/StatusDot.mdx"))),"component---src-components-switch-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Switch.mdx */ "../src/components/Switch.mdx"))),"component---src-components-table-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Table.mdx */ "../src/components/Table.mdx"))),"component---src-components-tag-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Tag.mdx */ "../src/components/Tag.mdx"))),"component---src-components-text-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Text.mdx */ "../src/components/Text.mdx"))),"component---src-components-textarea-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Textarea.mdx */ "../src/components/Textarea.mdx"))),"component---src-components-toast-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Toast.mdx */ "../src/components/Toast.mdx"))),"component---src-components-toggle-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Toggle.mdx */ "../src/components/Toggle.mdx"))),"component---src-components-tooltip-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Tooltip.mdx */ "../src/components/Tooltip.mdx"))),"component---src-components-video-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Video.mdx */ "../src/components/Video.mdx"))),"component---src-components-video-card-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/VideoCard.mdx */ "../src/components/VideoCard.mdx"))),"component---src-pages-404-js":hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js")))};
+=======
+const preferDefault=m=>m&&m.default||m;exports.components={"component---readme-md":hot(preferDefault(__webpack_require__(/*! ../README.md */ "../README.md"))),"component---src-components-alert-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Alert.mdx */ "../src/components/Alert.mdx"))),"component---src-index-mdx":hot(preferDefault(__webpack_require__(/*! ../src/index.mdx */ "../src/index.mdx"))),"component---src-components-button-mdx":hot(preferDefault(__webpack_require__(/*! ../src/components/Button.mdx */ "../src/components/Button.mdx"))),"component---src-pages-404-js":hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js")))};
+>>>>>>> master
 
 /***/ }),
 
@@ -82844,7 +83072,11 @@ const preferDefault=m=>m&&m.default||m;exports.components={"component---readme-m
 /*! exports provided: data, default */
 /***/ (function(module) {
 
+<<<<<<< HEAD
 module.exports = JSON.parse("{\"data\":{\"doczDb\":{\"id\":\"ace00e2b-9c46-5e24-a19a-5ed242ca9c64\",\"db\":\"{\\\"config\\\":{\\\"title\\\":\\\"Bruce's Docz\\\",\\\"description\\\":\\\"It has never been so easy for me to document all my things!\\\",\\\"menu\\\":[\\\"Getting Started\\\",\\\"Assets\\\",\\\"Styleguide\\\",\\\"Components\\\"],\\\"repository\\\":null,\\\"native\\\":false,\\\"themeConfig\\\":{\\\"codemirrorTheme\\\":\\\"material-palenight\\\"},\\\"separator\\\":\\\"-\\\",\\\"propsParser\\\":false,\\\"mdPlugins\\\":[],\\\"dest\\\":\\\"/public\\\",\\\"public\\\":\\\"./public\\\",\\\"htmlContext\\\":{\\\"lang\\\":\\\"en\\\",\\\"favicon\\\":\\\"/public/favicon/favicon.png\\\",\\\"head\\\":{\\\"meta\\\":[{\\\"charset\\\":\\\"utf-8\\\"},{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1.0\\\"},{\\\"http-equiv\\\":\\\"Content-Language\\\",\\\"content\\\":\\\"en\\\"},{\\\"name\\\":\\\"twitter:card\\\",\\\"content\\\":\\\"summary_large_image\\\"},{\\\"name\\\":\\\"twitter:site\\\",\\\"content\\\":\\\"@bruce_bentley\\\"},{\\\"name\\\":\\\"twitter:image\\\",\\\"content\\\":\\\"/public/images/header.png\\\"},{\\\"name\\\":\\\"og:title\\\",\\\"content\\\":\\\"Bruce's Docz - It has never been so easy for me to document all my things!\\\"},{\\\"name\\\":\\\"og:url\\\",\\\"content\\\":\\\"https://docz.brucebentley.dev\\\"},{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"It has never been so easy for me to document all my things!\\\"},{\\\"name\\\":\\\"og:description\\\",\\\"content\\\":\\\"It has never been so easy for me to document all my things!\\\"},{\\\"name\\\":\\\"og:image\\\",\\\"content\\\":\\\"/public/images/header.png\\\"},{\\\"name\\\":\\\"apple-mobile-web-app-title\\\",\\\"content\\\":\\\"Bruce's Docz\\\"},{\\\"name\\\":\\\"theme-color\\\",\\\"content\\\":\\\"#000000\\\"}],\\\"links\\\":[{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"57x57\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-57x57.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"60x60\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-60x60.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"72x72\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-72x72.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"76x76\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-76x76.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"114x114\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-114x114.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"120x120\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-120x120.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"144x144\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-144x144.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"152x152\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-152x152.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"180x180\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-180x180.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"icon\\\",\\\"type\\\":\\\"image/png\\\",\\\"href\\\":\\\"/public/favicon/favicon-32x32.png\\\",\\\"sizes\\\":\\\"32x32\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"icon\\\",\\\"type\\\":\\\"imag/png\\\",\\\"href\\\":\\\"/public/favicon/android-chrome-192x192.png\\\",\\\"sizes\\\":\\\"192x192\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"icon\\\",\\\"type\\\":\\\"image/png\\\",\\\"href\\\":\\\"/public/favicon/favicon-96x96.png\\\",\\\"sizes\\\":\\\"96x96\\\"},{\\\"rel\\\":\\\"icon\\\",\\\"type\\\":\\\"image/png\\\",\\\"href\\\":\\\"/public/favicon/favicon-16x16.png\\\",\\\"sizes\\\":\\\"16x16\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"manifest\\\",\\\"href\\\":\\\"/public/favicon/manifest.json\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"mask-icon\\\",\\\"href\\\":\\\"/public/favicon/safari-pinned-tab.svg\\\",\\\"color\\\":\\\"#ff0080\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"shortcut icon\\\",\\\"href\\\":\\\"/public/favicon/favicon.ico\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"https://codemirror.net/theme/material-palenight.css\\\"}],\\\"scripts\\\":[]},\\\"body\\\":{\\\"scripts\\\":[]}}},\\\"entries\\\":[{\\\"key\\\":\\\"README.md\\\",\\\"value\\\":{\\\"id\\\":\\\"04c6e90faac2675aa89e2176d2eec7d8\\\",\\\"filepath\\\":\\\"README.md\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/README.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"readme\\\",\\\"route\\\":\\\"/readme\\\",\\\"name\\\":\\\"Readme\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"bruces-personal-docz\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Bruce's Personal Docz\\\"}]}},{\\\"key\\\":\\\"src/assets/Personal.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Personal\\\",\\\"menu\\\":\\\"Assets\\\",\\\"id\\\":\\\"6ddf1e77bef77c5c8f27656b1c589406\\\",\\\"filepath\\\":\\\"src/assets/Personal.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/assets/Personal.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-assets-personal\\\",\\\"route\\\":\\\"/src-assets-personal\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"personal\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Personal\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/assets/Professional.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Professional\\\",\\\"menu\\\":\\\"Assets\\\",\\\"id\\\":\\\"5f14c65c97549d26aa907578d3e23ed6\\\",\\\"filepath\\\":\\\"src/assets/Professional.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/assets/Professional.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-assets-professional\\\",\\\"route\\\":\\\"/src-assets-professional\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"professional\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Professional\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/assets/SocialMedia.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Social Media\\\",\\\"menu\\\":\\\"Assets\\\",\\\"id\\\":\\\"366903cd1cc36fd8d2fb583969266ffc\\\",\\\"filepath\\\":\\\"src/assets/SocialMedia.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/assets/SocialMedia.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-assets-social-media\\\",\\\"route\\\":\\\"/src-assets-social-media\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"social-media\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Social Media\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/pages/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Getting Started\\\",\\\"route\\\":\\\"/\\\",\\\"id\\\":\\\"522b7407e210088f3588b943aec44115\\\",\\\"filepath\\\":\\\"src/pages/index.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/pages/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-pages-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"getting-started\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Getting Started\\\"},{\\\"slug\\\":\\\"consistency\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Consistency\\\"}]}},{\\\"key\\\":\\\"src/styleguide/Color.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Color\\\",\\\"menu\\\":\\\"Styleguide\\\",\\\"id\\\":\\\"1732abee394ba31581b39528a5e22062\\\",\\\"filepath\\\":\\\"src/styleguide/Color.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/styleguide/Color.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-styleguide-color\\\",\\\"route\\\":\\\"/src-styleguide-color\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"color\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Color\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/styleguide/Grid.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Grid\\\",\\\"menu\\\":\\\"Styleguide\\\",\\\"id\\\":\\\"53948d8a73f3e5cb72bcd2afd23a7abd\\\",\\\"filepath\\\":\\\"src/styleguide/Grid.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/styleguide/Grid.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-styleguide-grid\\\",\\\"route\\\":\\\"/src-styleguide-grid\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"grid\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Grid\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/styleguide/Icons.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Icons\\\",\\\"menu\\\":\\\"Styleguide\\\",\\\"id\\\":\\\"c08a800a503194bf5cc1a28bdb0f3048\\\",\\\"filepath\\\":\\\"src/styleguide/Icons.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/styleguide/Icons.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-styleguide-icons\\\",\\\"route\\\":\\\"/src-styleguide-icons\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"icons\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Icons\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/styleguide/Images.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Images\\\",\\\"menu\\\":\\\"Styleguide\\\",\\\"id\\\":\\\"f7b4e75e95914c1110ab91d8d7eadeab\\\",\\\"filepath\\\":\\\"src/styleguide/Images.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/styleguide/Images.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-styleguide-images\\\",\\\"route\\\":\\\"/src-styleguide-images\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"images\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Images\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Alert.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Alert\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"411d2842c3d65e6ee7d3ec119ed4c5a0\\\",\\\"filepath\\\":\\\"src/components/Alert.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Alert.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-alert\\\",\\\"route\\\":\\\"/src-components-alert\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"alert\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Alert\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic usage\\\"},{\\\"slug\\\":\\\"using-different-kinds\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Using different kinds\\\"}]}},{\\\"key\\\":\\\"src/components/Avatar.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Avatar\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"077aeae1b002d455d727e703158327f8\\\",\\\"filepath\\\":\\\"src/components/Avatar.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Avatar.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-avatar\\\",\\\"route\\\":\\\"/src-components-avatar\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"avatar\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Avatar\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Badge.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Badge\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"785bfad643aa0d033a58cf450ba32fc2\\\",\\\"filepath\\\":\\\"src/components/Badge.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Badge.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-badge\\\",\\\"route\\\":\\\"/src-components-badge\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"badge\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Badge\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Button.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Button\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"94c04b4e4bd29ffbdeec8755c1a4c04f\\\",\\\"filepath\\\":\\\"src/components/Button.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Button.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-button\\\",\\\"route\\\":\\\"/src-components-button\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"button\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Button\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic usage\\\"},{\\\"slug\\\":\\\"with-different-sizes\\\",\\\"depth\\\":2,\\\"value\\\":\\\"With different sizes\\\"},{\\\"slug\\\":\\\"with-different-colors\\\",\\\"depth\\\":2,\\\"value\\\":\\\"With different colors\\\"},{\\\"slug\\\":\\\"outlined\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Outlined\\\"}]}},{\\\"key\\\":\\\"src/components/ButtonDropdown.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Button Dropdown\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"22193d28d227ba1e39cb640a458f3f75\\\",\\\"filepath\\\":\\\"src/components/ButtonDropdown.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/ButtonDropdown.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-button-dropdown\\\",\\\"route\\\":\\\"/src-components-button-dropdown\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"button-dropdown\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Button Dropdown\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Checkbox.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Checkbox\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"d28c54e24763436b5a762bfe6d19ed21\\\",\\\"filepath\\\":\\\"src/components/Checkbox.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Checkbox.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-checkbox\\\",\\\"route\\\":\\\"/src-components-checkbox\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"checkbox\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Checkbox\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Collapse.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Collapse\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"1e1aa9ea02a7293a927cbafd277e4f1f\\\",\\\"filepath\\\":\\\"src/components/Collapse.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Collapse.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-collapse\\\",\\\"route\\\":\\\"/src-components-collapse\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"collapse\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Collapse\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Description.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Description\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"e2540eed8617424875b0e50753bae036\\\",\\\"filepath\\\":\\\"src/components/Description.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Description.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-description\\\",\\\"route\\\":\\\"/src-components-description\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"description\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Description\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Fieldset.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Fieldset\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"dd134c71ff55c36b7af65abe84487c35\\\",\\\"filepath\\\":\\\"src/components/Fieldset.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Fieldset.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-fieldset\\\",\\\"route\\\":\\\"/src-components-fieldset\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"fieldset\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Fieldset\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/FileTree.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"File Tree\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"3351ef96a7931d1165b1e8e27021e1d3\\\",\\\"filepath\\\":\\\"src/components/FileTree.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/FileTree.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-file-tree\\\",\\\"route\\\":\\\"/src-components-file-tree\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"file-tree\\\",\\\"depth\\\":1,\\\"value\\\":\\\"File Tree\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Icon.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Icon\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"2f3defaac1d10a0e3c0eb9992e471003\\\",\\\"filepath\\\":\\\"src/components/Icon.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Icon.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-icon\\\",\\\"route\\\":\\\"/src-components-icon\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"icon\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Icon\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Image.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Image\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"15bbd89c453614f4ffeb319446ae9ca1\\\",\\\"filepath\\\":\\\"src/components/Image.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Image.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-image\\\",\\\"route\\\":\\\"/src-components-image\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"image\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Image\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Input.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Input\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"b7f02ed6d1f5e34dafd0f8a16785e9cc\\\",\\\"filepath\\\":\\\"src/components/Input.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Input.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-input\\\",\\\"route\\\":\\\"/src-components-input\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"input\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Input\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Link.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Link\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"57d08361e0d1727d294a52c5e5530c6e\\\",\\\"filepath\\\":\\\"src/components/Link.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Link.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-link\\\",\\\"route\\\":\\\"/src-components-link\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"link\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Link\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/LoadingDots.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Loading Dots\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"bd5ba6847a6696e75e85318929a12a80\\\",\\\"filepath\\\":\\\"src/components/LoadingDots.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/LoadingDots.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-loading-dots\\\",\\\"route\\\":\\\"/src-components-loading-dots\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"loading-dots\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Loading Dots\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Note.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Note\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"2e281f2c3b899e91d509b0770c415524\\\",\\\"filepath\\\":\\\"src/components/Note.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Note.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-note\\\",\\\"route\\\":\\\"/src-components-note\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"note\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Note\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/PopoverMenu.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Popover Menu\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"36eba88602f5b657d3fd65902690e620\\\",\\\"filepath\\\":\\\"src/components/PopoverMenu.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/PopoverMenu.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-popover-menu\\\",\\\"route\\\":\\\"/src-components-popover-menu\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"popover-menu\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Popover Menu\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Radio.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Radio\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"c07d9a5dcf6e36af41e23845f9e00ac8\\\",\\\"filepath\\\":\\\"src/components/Radio.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Radio.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-radio\\\",\\\"route\\\":\\\"/src-components-radio\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"radio\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Radio\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Scroller.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Scroller\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"e6ae070612b5b65cbc6ef5e0ae6be3c7\\\",\\\"filepath\\\":\\\"src/components/Scroller.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Scroller.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-scroller\\\",\\\"route\\\":\\\"/src-components-scroller\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"scroller\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Scroller\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Select.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Select\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"05b370959a2781521272ccf4222c5ec3\\\",\\\"filepath\\\":\\\"src/components/Select.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Select.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-select\\\",\\\"route\\\":\\\"/src-components-select\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"select\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Select\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/ShowMore.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Show More\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"3f29b97b7366a9eb2c9f51f9c46bd7e9\\\",\\\"filepath\\\":\\\"src/components/ShowMore.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/ShowMore.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-show-more\\\",\\\"route\\\":\\\"/src-components-show-more\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"show-more\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Show More\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Skeleton.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Skeleton\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"1f417adffaa509c2d10d8b946ea1260c\\\",\\\"filepath\\\":\\\"src/components/Skeleton.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Skeleton.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-skeleton\\\",\\\"route\\\":\\\"/src-components-skeleton\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"skeleton\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Skeleton\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Slider.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Slider\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"7364fc8337331a00bee1e0d3d18d1bfc\\\",\\\"filepath\\\":\\\"src/components/Slider.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Slider.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-slider\\\",\\\"route\\\":\\\"/src-components-slider\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"slider\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Slider\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Snippet.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Snippet\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"320f96f8d6c67d78b4f7b2ba940fd760\\\",\\\"filepath\\\":\\\"src/components/Snippet.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Snippet.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-snippet\\\",\\\"route\\\":\\\"/src-components-snippet\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"snippet\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Snippet\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Spacer.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Spacer\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"2ae720ccdef4b7e7e8061a6d882aaf5f\\\",\\\"filepath\\\":\\\"src/components/Spacer.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Spacer.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-spacer\\\",\\\"route\\\":\\\"/src-components-spacer\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"spacer\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Spacer\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Spinner.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Spinner\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"6f7ca5a39e675b1b0b50b9c5113d40ec\\\",\\\"filepath\\\":\\\"src/components/Spinner.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Spinner.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-spinner\\\",\\\"route\\\":\\\"/src-components-spinner\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"spinner\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Spinner\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/StatusDot.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Status Dot\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"927970f6c4f944c4792706853f0aa1c8\\\",\\\"filepath\\\":\\\"src/components/StatusDot.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/StatusDot.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-status-dot\\\",\\\"route\\\":\\\"/src-components-status-dot\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"status-dot\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Status Dot\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Switch.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Switch\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"570d67ddb13fb91b5ba579e14fb48f88\\\",\\\"filepath\\\":\\\"src/components/Switch.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Switch.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-switch\\\",\\\"route\\\":\\\"/src-components-switch\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"switch\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Switch\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Table.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Table\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"2680b38bdb13018d5f862e7c100b0131\\\",\\\"filepath\\\":\\\"src/components/Table.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Table.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-table\\\",\\\"route\\\":\\\"/src-components-table\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"table\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Table\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Tag.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Tag\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"318bac00b17083b5057fbed122e6acf4\\\",\\\"filepath\\\":\\\"src/components/Tag.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Tag.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-tag\\\",\\\"route\\\":\\\"/src-components-tag\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"tag\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Tag\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Text.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Text\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"45ae8ab60e42d20e40bf547ae288fbc2\\\",\\\"filepath\\\":\\\"src/components/Text.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Text.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-text\\\",\\\"route\\\":\\\"/src-components-text\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"text\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Text\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Textarea.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Textarea\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"2f3e58c6785ed658dd7312820959cbf5\\\",\\\"filepath\\\":\\\"src/components/Textarea.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Textarea.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-textarea\\\",\\\"route\\\":\\\"/src-components-textarea\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"textarea\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Textarea\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Toast.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Toast\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"fd4914f617b95f0251559924bee11d66\\\",\\\"filepath\\\":\\\"src/components/Toast.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Toast.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-toast\\\",\\\"route\\\":\\\"/src-components-toast\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"toast\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Toast\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Toggle.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Toggle\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"9ab75109d23ced91fba8ac81f28c33e0\\\",\\\"filepath\\\":\\\"src/components/Toggle.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Toggle.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-toggle\\\",\\\"route\\\":\\\"/src-components-toggle\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"toggle\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Toggle\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Tooltip.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Tooltip\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"205101a3fe6ccd96142fdac2727a01eb\\\",\\\"filepath\\\":\\\"src/components/Tooltip.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Tooltip.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-tooltip\\\",\\\"route\\\":\\\"/src-components-tooltip\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"tooltip\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Tooltip\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/Video.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Video\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"5a504a2a792d7a3b2ca600fce313b4a7\\\",\\\"filepath\\\":\\\"src/components/Video.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Video.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-video\\\",\\\"route\\\":\\\"/src-components-video\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"video\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Video\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}},{\\\"key\\\":\\\"src/components/VideoCard.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Video Card\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"ef77a422a6501b507b94cbc7d246d088\\\",\\\"filepath\\\":\\\"src/components/VideoCard.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/VideoCard.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-video-card\\\",\\\"route\\\":\\\"/src-components-video-card\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"video-card\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Video Card\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best Practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic Usage\\\"}]}}]}\"}}}");
+=======
+module.exports = JSON.parse("{\"data\":{\"doczDb\":{\"id\":\"ace00e2b-9c46-5e24-a19a-5ed242ca9c64\",\"db\":\"{\\\"config\\\":{\\\"title\\\":\\\"Bruce's Docz\\\",\\\"description\\\":\\\"It has never been so easy for me to document all my things!\\\",\\\"menu\\\":[\\\"Getting Started\\\",\\\"Components\\\"],\\\"repository\\\":null,\\\"native\\\":false,\\\"themeConfig\\\":{\\\"codemirrorTheme\\\":\\\"material-palenight\\\"},\\\"separator\\\":\\\"-\\\",\\\"propsParser\\\":false,\\\"mdPlugins\\\":[],\\\"dest\\\":\\\"/public\\\",\\\"public\\\":\\\"./public\\\",\\\"htmlContext\\\":{\\\"lang\\\":\\\"en\\\",\\\"favicon\\\":\\\"/public/favicon/favicon.png\\\",\\\"head\\\":{\\\"meta\\\":[{\\\"charset\\\":\\\"utf-8\\\"},{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1.0\\\"},{\\\"http-equiv\\\":\\\"Content-Language\\\",\\\"content\\\":\\\"en\\\"},{\\\"name\\\":\\\"twitter:card\\\",\\\"content\\\":\\\"summary_large_image\\\"},{\\\"name\\\":\\\"twitter:site\\\",\\\"content\\\":\\\"@bruce_bentley\\\"},{\\\"name\\\":\\\"twitter:image\\\",\\\"content\\\":\\\"/public/images/header.png\\\"},{\\\"name\\\":\\\"og:title\\\",\\\"content\\\":\\\"Bruce's Docz - It has never been so easy for me to document all my things!\\\"},{\\\"name\\\":\\\"og:url\\\",\\\"content\\\":\\\"https://docz.brucebentley.dev\\\"},{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"It has never been so easy for me to document all my things!\\\"},{\\\"name\\\":\\\"og:description\\\",\\\"content\\\":\\\"It has never been so easy for me to document all my things!\\\"},{\\\"name\\\":\\\"og:image\\\",\\\"content\\\":\\\"/public/images/header.png\\\"},{\\\"name\\\":\\\"apple-mobile-web-app-title\\\",\\\"content\\\":\\\"Bruce's Docz\\\"},{\\\"name\\\":\\\"theme-color\\\",\\\"content\\\":\\\"#000000\\\"}],\\\"links\\\":[{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"57x57\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-57x57.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"60x60\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-60x60.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"72x72\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-72x72.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"76x76\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-76x76.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"114x114\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-114x114.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"120x120\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-120x120.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"144x144\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-144x144.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"152x152\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-152x152.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"sizes\\\":\\\"180x180\\\",\\\"href\\\":\\\"/public/favicon/apple-touch-icon-180x180.png\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"icon\\\",\\\"type\\\":\\\"image/png\\\",\\\"href\\\":\\\"/public/favicon/favicon-32x32.png\\\",\\\"sizes\\\":\\\"32x32\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"icon\\\",\\\"type\\\":\\\"imag/png\\\",\\\"href\\\":\\\"/public/favicon/android-chrome-192x192.png\\\",\\\"sizes\\\":\\\"192x192\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"icon\\\",\\\"type\\\":\\\"image/png\\\",\\\"href\\\":\\\"/public/favicon/favicon-96x96.png\\\",\\\"sizes\\\":\\\"96x96\\\"},{\\\"rel\\\":\\\"icon\\\",\\\"type\\\":\\\"image/png\\\",\\\"href\\\":\\\"/public/favicon/favicon-16x16.png\\\",\\\"sizes\\\":\\\"16x16\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"manifest\\\",\\\"href\\\":\\\"/public/favicon/manifest.json\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"mask-icon\\\",\\\"href\\\":\\\"/public/favicon/safari-pinned-tab.svg\\\",\\\"color\\\":\\\"#ff0080\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"shortcut icon\\\",\\\"href\\\":\\\"/public/favicon/favicon.ico\\\",\\\"importance\\\":\\\"low\\\"},{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"https://codemirror.net/theme/material-palenight.css\\\"}],\\\"scripts\\\":[]},\\\"body\\\":{\\\"scripts\\\":[]}}},\\\"entries\\\":[{\\\"key\\\":\\\"README.md\\\",\\\"value\\\":{\\\"id\\\":\\\"04c6e90faac2675aa89e2176d2eec7d8\\\",\\\"filepath\\\":\\\"README.md\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/README.md\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"readme\\\",\\\"route\\\":\\\"/readme\\\",\\\"name\\\":\\\"Readme\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"docz-example\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Docz Example\\\"},{\\\"slug\\\":\\\"deploy-your-own\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Deploy Your Own\\\"},{\\\"slug\\\":\\\"how-we-created-this-example\\\",\\\"depth\\\":3,\\\"value\\\":\\\"How We Created This Example\\\"},{\\\"slug\\\":\\\"deploying-from-your-terminal\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Deploying From Your Terminal\\\"}]}},{\\\"key\\\":\\\"src/index.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Getting Started\\\",\\\"route\\\":\\\"/\\\",\\\"id\\\":\\\"6576455a124f9aaefd860597f03a8fe4\\\",\\\"filepath\\\":\\\"src/index.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/index.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-index\\\",\\\"menu\\\":\\\"\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"getting-started\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Getting Started\\\"},{\\\"slug\\\":\\\"consistency\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Consistency\\\"}]}},{\\\"key\\\":\\\"src/components/Alert.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Alert\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"411d2842c3d65e6ee7d3ec119ed4c5a0\\\",\\\"filepath\\\":\\\"src/components/Alert.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Alert.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-alert\\\",\\\"route\\\":\\\"/src-components-alert\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"alert\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Alert\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic usage\\\"},{\\\"slug\\\":\\\"using-different-kinds\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Using different kinds\\\"}]}},{\\\"key\\\":\\\"src/components/Button.mdx\\\",\\\"value\\\":{\\\"name\\\":\\\"Button\\\",\\\"menu\\\":\\\"Components\\\",\\\"id\\\":\\\"94c04b4e4bd29ffbdeec8755c1a4c04f\\\",\\\"filepath\\\":\\\"src/components/Button.mdx\\\",\\\"fullpath\\\":\\\"/Users/bruce.bentley/Projects/Personal/docz.brucebentley.dev/src/components/Button.mdx\\\",\\\"link\\\":\\\"\\\",\\\"slug\\\":\\\"src-components-button\\\",\\\"route\\\":\\\"/src-components-button\\\",\\\"headings\\\":[{\\\"slug\\\":\\\"button\\\",\\\"depth\\\":1,\\\"value\\\":\\\"Button\\\"},{\\\"slug\\\":\\\"best-practices\\\",\\\"depth\\\":3,\\\"value\\\":\\\"Best practices\\\"},{\\\"slug\\\":\\\"properties\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Properties\\\"},{\\\"slug\\\":\\\"basic-usage\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Basic usage\\\"},{\\\"slug\\\":\\\"with-different-sizes\\\",\\\"depth\\\":2,\\\"value\\\":\\\"With different sizes\\\"},{\\\"slug\\\":\\\"with-different-colors\\\",\\\"depth\\\":2,\\\"value\\\":\\\"With different colors\\\"},{\\\"slug\\\":\\\"outlined\\\",\\\"depth\\\":2,\\\"value\\\":\\\"Outlined\\\"}]}}]}\"}}}");
+>>>>>>> master
 
 /***/ }),
 
