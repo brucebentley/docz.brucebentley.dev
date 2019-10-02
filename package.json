@@ -6,7 +6,6 @@
   "files": [
     "src/",
     "doczrc.js",
-    "now.json",
     "package.json"
   ],
   "scripts": {
@@ -14,12 +13,14 @@
     "//": "temporary hack below fixed with next docz version. Used for running docz on CI",
     "dev:once": "npx kill-port 3000 && (yarn dev &) && npx wait-on http-get://localhost:3000 && npx kill-port 3000",
     "build": "yarn dev:once && docz build",
-    "deploy": "yarn build && npx now --prod"
+    "deploy": "yarn build && now",
+    "deploy:prod": "yarn build && now --prod"
   },
   "dependencies": {
     "@emotion/core": "^10.0.17",
     "@emotion/styled": "^10.0.17",
     "docz": "next",
+    "docz-theme-default": "1.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
