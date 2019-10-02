@@ -12,7 +12,7 @@ export default {
   propsParser: false,
   mdPlugins: [],
   // ignore: ['site-map.md', 'readme.md', 'src/theme/**'],
-  dest: '/public',
+  // dest: '/public',
   public: './public',
   htmlContext: {
     lang: 'en',
