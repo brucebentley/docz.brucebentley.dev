@@ -1,5 +1,5 @@
 import * as path from 'path'
-import externalLinks from 'remark-external-links'
+// import externalLinks from 'remark-external-links'
 
 const PUBLIC = path.resolve(__dirname, 'public')
 const SRC = path.resolve(__dirname, 'src')
@@ -11,7 +11,7 @@ export default {
   // theme: 'src/theme/index',
   // typescript: false,
   propsParser: false,
-  mdPlugins: [externalLinks],
+  // mdPlugins: [externalLinks],
   // ignore: ['site-map.md', 'readme.md', 'src/theme/**'],
   // dest: '/public',
   public: './public',
