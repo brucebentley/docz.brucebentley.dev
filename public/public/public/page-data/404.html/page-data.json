@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-404-js","path":"/404.html","webpackCompilationHash":"a11c6b467495c02dae8b","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+<<<<<<< HEAD
+{"componentChunkName":"component---src-pages-404-js","path":"/404.html","webpackCompilationHash":"","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+=======
+{"componentChunkName":"component---src-pages-404-js","path":"/404.html","webpackCompilationHash":"4a44adb9bd42d45797ac","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+>>>>>>> master
