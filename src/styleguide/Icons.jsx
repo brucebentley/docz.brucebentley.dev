@@ -11,7 +11,6 @@ const kinds = {
 const IconsStyled = ({ children, kind, ...rest }) => (
   <div
     style={{
-      background: 'white',
       color: 'white',
       background: kinds[kind]
     }}

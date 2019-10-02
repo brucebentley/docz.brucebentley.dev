@@ -11,8 +11,7 @@ const kinds = {
 const ImagesStyled = ({ children, kind, ...rest }) => (
   <div
     style={{
-      background: 'white',
-      color: 'white',
+            color: 'white',
       background: kinds[kind]
     }}
     {...rest}

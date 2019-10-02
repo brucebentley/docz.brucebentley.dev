@@ -11,8 +11,7 @@ const kinds = {
 const SkeletonStyled = ({ children, kind, ...rest }) => (
   <div
     style={{
-      background: 'white',
-      color: 'white',
+            color: 'white',
       background: kinds[kind]
     }}
     {...rest}
