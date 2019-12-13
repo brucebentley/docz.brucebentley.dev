@@ -28,7 +28,7 @@
     "scheduler": "0.16.1"
   },
   "devDependencies": {
-    "now": "16.3.0",
+    "now": "16.6.3",
     "remark-external-links": "5.0.0",
     "rimraf": "3.0.0"
   }
