@@ -18,8 +18,8 @@
     "dev:once": "npx kill-port 3000 && (yarn dev &) && npx wait-on http-get://localhost:3000 && npx kill-port 3000"
   },
   "dependencies": {
-    "@emotion/core": "10.0.22",
-    "@emotion/styled": "10.0.23",
+    "@emotion/core": "10.0.27",
+    "@emotion/styled": "10.0.27",
     "docz": "next",
     "docz-theme-default": "1.2.0",
     "prop-types": "15.7.2",
