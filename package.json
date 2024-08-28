@@ -19,17 +19,17 @@
   },
   "dependencies": {
     "@emotion/core": "11.0.0",
-    "@emotion/styled": "11.11.0",
+    "@emotion/styled": "11.13.0",
     "docz": "next",
     "docz-theme-default": "1.2.0",
     "prop-types": "15.8.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "scheduler": "0.23.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "scheduler": "0.23.2"
   },
   "devDependencies": {
-    "now": "21.0.1",
+    "vercel": "21.0.0",
     "remark-external-links": "9.0.1",
-    "rimraf": "5.0.5"
+    "rimraf": "6.0.1"
   }
 }
